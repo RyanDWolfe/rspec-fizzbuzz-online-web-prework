@@ -1,5 +1,12 @@
-def fixxbuzz
-
+def fixxbuzz(int)
+  if int % 3 == 0
+    "Fizz"
+  elsif int % 5 == 0
+    "Buzz"
+  elsif int % 3 == && int % 5 == 0
+    "Fizzbuzz"
+  else
+    nil
 end
 
 # Don't forget! This file needs to be 'required' in its spec file
